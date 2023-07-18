@@ -1,0 +1,18 @@
+/* responsive for mobile device */
+@media screen and (max-width: 575px) {
+    .navbar, .nav-logo, .nav-content > ul{
+        flex-direction: column;
+         margin-bottom: 40px;
+    }
+  }
+/* responsive for mobile device */
+
+/* ............................. */
+
+/* responsive for medium device */
+@media screen and (min-width: 575px) and (max-width: 992px){
+  .navbar{
+    padding: 15px;
+  }
+}
+/* responsive for medium device */
