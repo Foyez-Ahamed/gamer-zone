@@ -265,7 +265,7 @@ background-clip: text;
 /* multiple button section */
 .multipule-button {
     margin-top: 100px;
-    padding: 50px 100px;
+    padding: 50px 70px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 .button-up{
@@ -279,17 +279,18 @@ background-clip: text;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 50px;
     flex-wrap: wrap;
 }
 .multipule-button button{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 17px;
     border: none;
-    padding: 10px 20px ;
+    padding: 5px 10px ;
     background: #fff;
     border-radius: 60px;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 700;
     transition: 0.7s;
 }
@@ -333,7 +334,7 @@ background-clip: text;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .footer-menu ul li {
@@ -355,6 +356,9 @@ background-clip: text;
   cursor: pointer;
 }
 
+.footer-icon a{
+    text-decoration: none;
+}
 
 .footer-menu-2{
     margin-top: 30px;
@@ -373,9 +377,9 @@ background-clip: text;
 
 .footer-menu-2 ul li a{
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.60);
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .footer-end {

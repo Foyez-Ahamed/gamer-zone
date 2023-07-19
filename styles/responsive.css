@@ -81,12 +81,16 @@
    }
 
    .footer-icon{
-    flex-wrap: wrap;
+      flex-wrap: wrap;
    }
   }
 /* responsive for mobile device */
 
 /* ............................. */
+
+
+
+
 
 /* responsive for medium device */
 @media screen and (min-width: 575px) and (max-width: 992px){
