@@ -43,6 +43,29 @@
     width: 100%;
   }
 
+  .play-instantly {
+    flex-direction: column-reverse;
+    padding: 40px;
+  }
+
+  .play-content{
+    width: 100%;
+    text-align: center;
+  }
+
+  .play-images{
+    width: 100%;
+  }
+
+  .play-images .play-img-2{
+    position: absolute;
+    bottom: -50px;
+    right: -20px;
+}
+
+  .play-img-2 img{
+    width: 150px;
+  }
     /* .banner-content{
       margin-top: 80px;
     } */
@@ -64,5 +87,25 @@
   .banner-image{
     width: 50%;
   }
+
+  .play-content{
+    margin-top: 110px;
+  }
+
+  .play-content h1{
+    font-size: 1.8rem;
+    color: #0B0223;
+    font-weight: 700;
+}
+
+  .play-img-2 img{
+    width: 150px;
+  }
+
+  .play-images .play-img-2{
+    position: absolute;
+    bottom: -50px;
+    right: -20px;
+}
 }
 /* responsive for medium device */
