@@ -19,6 +19,30 @@
       width: 100%;
     }
 
+    .online-games{
+      padding: 20px;
+      margin-top: 80px;
+    }
+
+    .games-card{
+      flex-direction: column;
+    }
+
+    .online-games .games-card .gemes-1{
+      width: 100%;
+  }
+  
+  .online-games .games-card .gemes-2{
+    width: 100%;
+  }
+  
+  .online-games .games-card .gemes-3{
+    width: 100%;
+  }
+  .online-games .games-card .gemes-4{
+    width: 100%;
+  }
+
     /* .banner-content{
       margin-top: 80px;
     } */
