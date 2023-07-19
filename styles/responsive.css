@@ -34,13 +34,16 @@
   
   .online-games .games-card .gemes-2{
     width: 100%;
+    margin-top: 60px;
   }
   
   .online-games .games-card .gemes-3{
     width: 100%;
+    margin-top: 60px;
   }
   .online-games .games-card .gemes-4{
     width: 100%;
+    margin-top: 60px;
   }
 
   .play-instantly {
@@ -49,6 +52,7 @@
   }
 
   .play-content{
+    margin-top: 60px;
     width: 100%;
     text-align: center;
   }
@@ -124,6 +128,14 @@
     position: absolute;
     bottom: -50px;
     right: -20px;
+}
+
+.online-games .games-card .gemes-1,
+.online-games .games-card .gemes-2,
+.online-games .games-card .gemes-3,
+.online-games .games-card .gemes-4{
+  width: 400px;
+  height: 200px;
 }
 }
 /* responsive for medium device */
