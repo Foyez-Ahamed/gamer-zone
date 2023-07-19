@@ -4,6 +4,24 @@
         flex-direction: column;
          margin-bottom: 40px;
     }
+
+    .banner{
+      flex-direction: column-reverse;
+      padding: 20px;
+    }
+
+    .banner-content{
+      margin-top: 80px;
+      width: 100%;
+    }
+
+    .banner-image{
+      width: 100%;
+    }
+
+    /* .banner-content{
+      margin-top: 80px;
+    } */
   }
 /* responsive for mobile device */
 
@@ -11,8 +29,16 @@
 
 /* responsive for medium device */
 @media screen and (min-width: 575px) and (max-width: 992px){
-  .navbar{
+  .navbar, .banner{
     padding: 15px;
+  }
+
+  .banner-content{
+    margin-top: 30px;
+  }
+
+  .banner-image{
+    width: 50%;
   }
 }
 /* responsive for medium device */
