@@ -67,14 +67,22 @@
     width: 150px;
   }
 
-  .multipule-button{
+  .button-up, .button-down{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+  }
+    
+   .footer {
     padding: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
    }
-    /* .banner-content{
-      margin-top: 80px;
-    } */
+
+   .footer-menu > ul, .footer-menu-2 > ul{
+    flex-wrap: wrap;
+   }
+
+   .footer-icon{
+    flex-wrap: wrap;
+   }
   }
 /* responsive for mobile device */
 
