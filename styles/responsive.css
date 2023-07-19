@@ -86,6 +86,28 @@
     width: 150px;
   }
 
+  .career{
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .career-content{
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .multiple-left, .multiple-right{
+    width: 100%;
+  }
+
+  .career-image{
+    width: 100%;
+  }
+
+  .multipule-button {
+    padding: 20px;
+  }
+
   .button-up, .button-down{
      display: grid;
      grid-template-columns: repeat(2, 1fr);
@@ -112,8 +134,8 @@
 
 
 /* responsive for medium device */
-@media screen and (min-width: 575px) and (max-width: 992px){
-  .navbar, .banner{
+@media screen and (min-width: 576px) and (max-width: 992px){
+  .navbar, .banner, .we-are-gammer, .online-games, .play-instantly, .multipule-button, .footer{
     padding: 15px;
   }
 
@@ -167,5 +189,24 @@
   width: 400px;
   height: 200px;
 }
+
+.button-up, .button-down{
+  justify-content: space-between;
+  margin-top: 0px;
 }
+
+.career{
+  padding: 20px;
+}
+
+.career-content{
+  margin-top: 10px;
+}
+
+.career-image{
+  margin-top: 60px;
+}
+
+}
+
 /* responsive for medium device */
