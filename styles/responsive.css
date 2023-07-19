@@ -15,6 +15,14 @@
       width: 100%;
     }
 
+    .banner-content h3{
+      font-size: 2rem;
+    }
+
+    .banner-content h1{
+      font-size: 3.4rem;
+    }
+
     .banner-image{
       width: 100%;
     }
@@ -141,6 +149,14 @@
 
   .banner-content{
     margin-top: 30px;
+  }
+
+  .banner-content h3{
+     font-size: 2rem;
+  }
+
+  .banner-content h1{
+    font-size: 3.4rem;
   }
 
   .banner-image{
