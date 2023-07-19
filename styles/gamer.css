@@ -163,6 +163,55 @@ body{
 }
 /* banner section styles */
 
+/* we are gammer section */
+ .we-are-gammer{
+    padding: 50px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .gammer-image{
+    width: 50%;
+ }
+
+ .gammer-image img{
+    width: 100%;
+ }
+
+ .gammer-content{
+    width: 50%;
+    text-align: right;
+ }
+
+ .gammer-content h1{
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+ .gammer-content p{
+    font-size: 1rem;
+    color: #534C64;
+    margin-top: 20px;
+ }
+
+ .gammer-content h4{
+    font-size: 2rem;
+    color: #3C354F;
+    margin-top: 20px;
+ }
+
+ .gammer-content h4 span{
+    font-size: 1.5rem;
+ }
+
+/* we are gammer section */
+
 /* online games section styles */
 .online-games{
     padding: 50px;
