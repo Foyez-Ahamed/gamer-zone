@@ -113,12 +113,17 @@
   }
 
   .multipule-button {
-    padding: 20px;
+    padding: 10px;
+  }
+
+  .multipule-button button{
+    font-weight: 400;
   }
 
   .button-up, .button-down{
      display: grid;
      grid-template-columns: repeat(2, 1fr);
+     gap: 10px;
   }
     
    .footer {

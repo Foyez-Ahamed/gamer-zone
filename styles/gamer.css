@@ -23,6 +23,7 @@ body{
     display: flex;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 
 .nav-logo img{
@@ -67,6 +68,11 @@ body{
     border-radius: 5px;
 }
 
+.nav-content  ul  .nav-icons:hover{
+    background: #fff;
+    border: 1px solid #534C64;
+}
+
 .nav-content  ul  .nav-icons img{
     width: 25px;
     margin-top: 6px;
@@ -88,14 +94,14 @@ body{
 }
 
 .banner-content h3{
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   font-weight: 700;
   color: #0B0223;
   text-transform: uppercase;
 }
 
 .banner-content h1{
-    font-size: 5rem;
+    font-size: 4.2rem;
     font-weight: 700;
     color: #0B0223;
     text-transform: uppercase;
@@ -122,7 +128,7 @@ body{
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     color: #fff;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 500;
     border-radius: 48px;
     transition: 0.9s;
   }
@@ -130,7 +136,7 @@ body{
   .banner-btn-1:hover{
     background: transparent;
     color: #FF42A5;
-    border: 2px solid #FF42A5;
+    border: 1px solid #FF42A5;
   }
 
   .banner-btn-2{
@@ -141,7 +147,7 @@ body{
     background: #4EC5F7;
     color: #fff;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 48px;
     transition: 0.9s;
   }
@@ -149,7 +155,7 @@ body{
   .banner-btn-2:hover{
     background: transparent;
     color: #4EC5F7;
-    border: 2px solid #4EC5F7;
+    border: 1px solid #4EC5F7;
   }
 
   .banner-image{
@@ -394,12 +400,19 @@ background-clip: text;
 
 .career-content .career-btn{
     margin-top: 40px;
-    padding: 10px 20px;
+    padding: 15px 22px;
     border: none;
     border-radius: 48px;
     font-size: 1rem;
     font-weight: 500;
     color: #FF42A5;
+    transition: 0.8s;
+}
+
+.career-content .career-btn:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
 }
 
 .career-multiple{
@@ -450,7 +463,7 @@ background-clip: text;
     background: #fff;
     border-radius: 60px;
     font-size: 0.9rem;
-    font-weight: 700;
+    font-weight: 600;
     transition: 0.7s;
 }
 
